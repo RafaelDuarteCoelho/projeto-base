@@ -1,0 +1,56 @@
+.contato-container {
+	display: flex;
+	height: 75vh;
+	width: 100%;
+}
+
+.contato-item {
+	flex-grow: 1;
+	width: 50%;
+}
+
+b {
+	font-weight: bold;
+}
+
+.form-container {
+	display: flex;
+	flex-direction: column;
+	height: 50vh;
+	padding: 25%;
+
+}
+
+.form-item {
+	vertical-align: top;
+	margin: 1.5%;
+	font-size: 25px;
+	text-align: justify;
+	line-height: 125%;
+}
+
+
+#input-item {
+	border-radius: 7px;
+	height: 5%;
+}
+
+#send-item {
+	width: 25%;
+	height: 45px;
+	background-color: rgba(221, 71, 33, 0.938);
+	text-align: center;
+	color: whitesmoke;
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 12px;
+	border-radius: 10px;
+	border-style: hidden;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+#send-item:hover {
+	background-color: red;
+	transform: scale(1.1);
+}
